@@ -32,26 +32,10 @@ const Main = (props: IMainProps) => (
             </li>
             <li className="mr-6">
               <Link
-                href="/about/"
+                href="/bitgo-btc/"
                 className="border-none text-gray-700 hover:text-gray-900"
               >
-                About
-              </Link>
-            </li>
-            <li className="mr-6">
-              <a
-                className="border-none text-gray-700 hover:text-gray-900"
-                href="https://github.com/ixartz/Next-js-Boilerplate"
-              >
-                GitHub
-              </a>
-            </li>
-            <li className="mr-6">
-              <Link
-                href="/blog/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                Blog
+                BitGo BTC Wallets
               </Link>
             </li>
           </ul>
