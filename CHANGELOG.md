@@ -1,3 +1,52 @@
+# 1.0.0 (2022-12-07)
+
+
+### Bug Fixes
+
+* add missing files for commitzen ([018ba8b](https://github.com/bitgoAaron/nextjs-bitgojs/commit/018ba8bde81b0f6cc60230fe4668b149ac3b2e6a))
+* add npx before percy command line ([4824e98](https://github.com/bitgoAaron/nextjs-bitgojs/commit/4824e98a4d621684494fe2c7e8c3351551e52845))
+* add sitemap file in gitignore, it shouldn't commit to git ([344b731](https://github.com/bitgoAaron/nextjs-bitgojs/commit/344b7312df2f7e12e642a6346ef05ad9a7ca766c))
+* add steps in update-deps.yml file, syntax error ([b5de445](https://github.com/bitgoAaron/nextjs-bitgojs/commit/b5de445f1f927a5a7c2b0c85746b8fd07629cb55))
+* change matching regex for Cypress files ([861d545](https://github.com/bitgoAaron/nextjs-bitgojs/commit/861d54596b61b7706cfbb681df334d73b34a378e))
+* code styling in blog component pages ([f4a55c4](https://github.com/bitgoAaron/nextjs-bitgojs/commit/f4a55c4234fc03ed719859c12f13bffabd120c6d))
+* Eslint comment update ([8baa5d1](https://github.com/bitgoAaron/nextjs-bitgojs/commit/8baa5d160734a3cadb419534509cc6edaac57456))
+* just rebuild sitemap ([831bae9](https://github.com/bitgoAaron/nextjs-bitgojs/commit/831bae93831eb5c4f259c4a0fa9ec3012ede8927))
+* move getStaticPaths at the top of blog page ([83892ea](https://github.com/bitgoAaron/nextjs-bitgojs/commit/83892ea865459f59da824c9358fbf4ccea6475e6))
+* remove generated files by next-sitemap ([c5d93bf](https://github.com/bitgoAaron/nextjs-bitgojs/commit/c5d93bf9fe67a6737b536edf4d50d56cd4c8af2c))
+* rename from mjs to js next-sitemap file ([7d450ff](https://github.com/bitgoAaron/nextjs-bitgojs/commit/7d450ffce77f0be4c533cb1aab757f7fb1f13596))
+* resolve merge conflict ([276f57a](https://github.com/bitgoAaron/nextjs-bitgojs/commit/276f57aeb0d4a346f8e19ad81ce4703458d9f41c))
+* retrive PERCY_TOKEN and set token for percy cli ([afe00f2](https://github.com/bitgoAaron/nextjs-bitgojs/commit/afe00f2e47b5dbc5fb701dd2e46756f4b7e498fd))
+* update package-lock.json ([fba016d](https://github.com/bitgoAaron/nextjs-bitgojs/commit/fba016dec202d5748e30804b1bf50e30c00ef120))
+* update README file for next-sitemap ([9496217](https://github.com/bitgoAaron/nextjs-bitgojs/commit/94962171a35a07e84319374500f28a76f264a266))
+* use npx npm-check-updates ([e530193](https://github.com/bitgoAaron/nextjs-bitgojs/commit/e5301939a5ff98c598899ff49bee1ad351759292))
+* wait until the link rendered instead a wrong heading tag ([e38655b](https://github.com/bitgoAaron/nextjs-bitgojs/commit/e38655b853b39fdcb9bccd3a84e99dd5caa1681d))
+
+
+### Features
+
+* add auto-update GitHub Actions ([364168f](https://github.com/bitgoAaron/nextjs-bitgojs/commit/364168f3407c7cdd21da7cd1de6d9d930f89d99a))
+* add blog page ([89c4ec7](https://github.com/bitgoAaron/nextjs-bitgojs/commit/89c4ec79db48f4ae09af3e8ddb3ce5a980ed8ee6))
+* add commit script in package.json ([8f4719e](https://github.com/bitgoAaron/nextjs-bitgojs/commit/8f4719ec550ab0dbffa93ca1d278aa9e370a773a))
+* add commitlint with config-conventional ([97a9ac7](https://github.com/bitgoAaron/nextjs-bitgojs/commit/97a9ac7dbbca3f8d4fad22a9e4a481c029cd2cb5))
+* add coverage for vscode-jest and configure jest autoRun ([ad8a030](https://github.com/bitgoAaron/nextjs-bitgojs/commit/ad8a03019010577bfb8e8ed850e8d45ca274dbe9))
+* add cypress and cypress eslint plugin ([5657ee6](https://github.com/bitgoAaron/nextjs-bitgojs/commit/5657ee6dab03b11020bb2ce80083669785edd6ce))
+* add sitemap.xml and robots.txt from build ([545d133](https://github.com/bitgoAaron/nextjs-bitgojs/commit/545d133decee4f7d42c228049ef3bde2b9a94b0a))
+* add TypeScript support for Tailwind CSS configuration ([41f1918](https://github.com/bitgoAaron/nextjs-bitgojs/commit/41f19189655abe3941485363e057812a5fcd6c02))
+* add visual testing with Percy ([b0a39f5](https://github.com/bitgoAaron/nextjs-bitgojs/commit/b0a39f58e1bd0934158b0bab8ab7e4c9215e88f0))
+* add vscode jest extension ([49ab935](https://github.com/bitgoAaron/nextjs-bitgojs/commit/49ab935a03f5a9d1074a155331107737fd7dad13))
+* automatically format the whole codebase with npm run format ([9299209](https://github.com/bitgoAaron/nextjs-bitgojs/commit/92992096ede4d2b3e77c3e0c96b75e5e6b84067d))
+* change 'powered by' text to 'built' with ([fe0a29f](https://github.com/bitgoAaron/nextjs-bitgojs/commit/fe0a29f8fbab14c7e8c8e98a75ce488ac157e509))
+* disable Husky for release ([f20c595](https://github.com/bitgoAaron/nextjs-bitgojs/commit/f20c5951e018c99421e833eef6ce14bd9632838f))
+* rename from master to main ([10920ec](https://github.com/bitgoAaron/nextjs-bitgojs/commit/10920ece4892ca73639388116af59fdd3e077d5f))
+* run github release only on completed CI workflow ([dd4de76](https://github.com/bitgoAaron/nextjs-bitgojs/commit/dd4de76b6ea013190a6ea18d69eb3764e1b915f9))
+* update footer message and comment ([4f74176](https://github.com/bitgoAaron/nextjs-bitgojs/commit/4f74176b05528666fd8b92a8becdc7e3c2f0db4a))
+* update TypeScript to 4.9.x ([471dc70](https://github.com/bitgoAaron/nextjs-bitgojs/commit/471dc70306c69ecb524af40aa76403daa83597e2))
+
+
+### Reverts
+
+* update dependencies and remove commitzen ([d136e02](https://github.com/bitgoAaron/nextjs-bitgojs/commit/d136e02678c5dac2e8d64c388bcfe6d48f9e2ad9))
+
 # [3.6.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.4...v3.6.0) (2022-12-03)
 
 
