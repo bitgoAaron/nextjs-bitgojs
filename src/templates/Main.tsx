@@ -38,6 +38,14 @@ const Main = (props: IMainProps) => (
                 BitGo BTC Wallets
               </Link>
             </li>
+            <li className="mr-6">
+              <Link
+                href="/bitgo-polygon/"
+                className="border-none text-gray-700 hover:text-gray-900"
+              >
+                BitGo POLYGON Wallets
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
