@@ -24,6 +24,18 @@ const BitGoSDK = () => {
     };
     fetchWallets();
   }, []);
+
+  const onGenClick = async () => {
+    await bitgoAPI.coin('tpolygon').wallets().generateWallet({
+      passphrase: 'Password123!',
+      label: 'test wallet gen',
+      enterprise: '63581d3fa6c6a0000799c15331bcd8c4',
+      multisigType: 'tss',
+      backupProvider: 'BitGoKRS',
+      walletVersion: 3,
+    });
+  };
+
   return (
     <Main
       meta={<Meta title="BitGoJS Meets NextJS" description="Lorem ipsum" />}
@@ -36,6 +48,9 @@ const BitGoSDK = () => {
             {wallet.label()} : {wallet.spendableBalanceString()}
           </div>
         ))}
+      </div>
+      <div>
+        <button onClick={onGenClick}>Generate New Wallet</button>
       </div>
     </Main>
   );
